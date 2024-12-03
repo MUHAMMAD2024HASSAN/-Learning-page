@@ -22,3 +22,29 @@
     position: relative;
 }
 
+.navbar nav .navContainer{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar nav .navContainer ul{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    font-size: 16px;
+    font-weight: 250;
+    list-style: none;
+}
+
+.navbar nav .navContainer ul a{    
+    text-decoration: none;
+    transition: 1s;
+}
+
+.navbar nav .navContainer ul a:hover{ 
+    text-decoration: none;   
+   color: black;
+}
+
