@@ -5,6 +5,8 @@
     font-family: "Poppins", sans-serif
 }
 
+/*============= NAVBAR ===========*/
+
 .navbar{
     width: 100%;
     height: 5rem;
@@ -45,6 +47,116 @@
 
 .navbar nav .navContainer ul a:hover{ 
     text-decoration: none;   
-   color: black;
+    color: black;
 }
 
+.navbar nav .navContainerForSm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar nav .navContainerForSmallScreen{
+    display: flex;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.501);
+    width: 100%;
+    height: calc(100vh - 80px);
+    left: -120em;
+    list-style: none;
+    transition: 1s;
+}
+
+.navbar nav .navContainerForSmallScreen ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    font-size: 22px;
+    font-weight: 250;
+    list-style: none;
+}
+
+.navbar nav .navContainerForSmallScreen ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top: 70px;
+    gap: 30px;
+    font-size: 22px;
+    font-weight: 250;
+    list-style: none;
+}
+
+.navbar nav .navContainerForSmallScreen ul{
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar nav .navContainerForSmallScreen ul a{
+    text-decoration: none; 
+    color: black;
+}
+
+/*============ ALL MEDIA QUERY ===========*/
+/**== sm screen ==**/
+@media (min-width: 640px){
+    .navbar nav{
+      padding: 0 32px 0 32px;
+    }
+  
+    .navbar nav .navContainer {
+      display: none;
+    }
+  }
+  
+  
+  /**== md screen ==**/
+  @media (min-width: 768px){
+    .navbar nav{
+      padding: 0 32px 0 32px;
+    }
+      
+    .navbar nav .navContainer{
+        display: flex;
+        width: min-content;
+      }
+    
+    .navbar nav .navContainerForSmallScreen {
+      display: none;
+    }
+
+    .navbar nav .navContainerForSm{
+      display: none;
+    } 
+  }
+  
+  /**== lg screen ==**/
+  @media (min-width: 1024px){
+    .navbar nav{
+      padding: 0 64px 0 64px;
+    }
+  
+    .navbar nav .navContainer ul{
+      gap: 50px;
+    }
+
+  }
+  
+  /**== xl screen ==**/
+  @media (min-width: 1280px){
+    .navbar nav{
+      padding: 0 128px 0 128px;
+    }
+  }
+  
+  /**== 2xl screen ==**/
+  @media (min-width: 1536px){
+    .navbar nav{
+      padding: 0 256px 0 256px;
+    }  
+  }
