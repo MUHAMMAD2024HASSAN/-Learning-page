@@ -108,12 +108,12 @@
 }
 
 
-/**  md screen  **/
+/**==  md screen  ==**/
 @media (min-width: 768px){
   .navbar nav{
     padding: 0 32px 0 32px;
   }
-  
+
   .navbar nav .navContainer{
     display: flex;
     width: min-content;
@@ -128,7 +128,7 @@
   }
 }
 
-/**  lg screen  **/
+/**==  lg screen  ==**/
 @media (min-width: 1024px){
   .navbar nav{
     padding: 0 64px 0 64px;
@@ -139,14 +139,14 @@
   }
 }
 
-/**  xl screen  **/
+/**==  xl screen  ==**/
 @media (min-width: 1280px){
   .navbar nav{
     padding: 0 128px 0 128px;
   }
 }
 
-/**  2xl screen  **/
+/**==  2xl screen  ==**/
 @media (min-width: 1536px){
   .navbar nav{
     padding: 0 256px 0 256px;
