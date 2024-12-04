@@ -6,7 +6,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-/*** NAVBAR ***/
+/***=== NAVBAR ===***/
 .navbar{
   width: 100%;
   display: flex;
@@ -27,9 +27,9 @@
 
 .navbar nav .navContainer{
   display: none;
+  justify-content: center;
   align-items: center;
   width: 100%;
-  
 }
 
 .navbar nav .navContainer ul{
@@ -44,11 +44,12 @@
   
   .navbar nav .navContainer ul  li a{
     text-decoration: none;
+    color: black;
     transition: 0.5s;
   }
   
   .navbar nav .navContainer ul  li a:hover{
-    color: black;
+    color: white;
   }
 
 .navbar nav .navContainerForSm{
@@ -66,7 +67,9 @@
   height: calc(100vh - 80px);
   list-style: none;
   transition: left 1s;
+  color: black;
 }
+
 .navbar nav .navContainerForSmallScreen ul {
   display: flex;
   flex-direction: column;
@@ -81,6 +84,7 @@
 
 .navbar nav .navContainerForSmallScreen ul  li a{
   text-decoration: none;
+  color: black;
   transition: 0.5s;
 }
 
@@ -90,9 +94,9 @@
 }
 
 
-/**==================  All media guery  ===========**/
+/**========  All media guery  ======**/
 
-/**  screen  sm  **/
+/**==  sm screen ==**/
 @media (min-width: 640px){
   .navbar nav{
     padding: 0 32px 0 32px;
@@ -104,18 +108,19 @@
 }
 
 
-/**  screen  md  **/
+/**  md screen  **/
 @media (min-width: 768px){
   .navbar nav{
     padding: 0 32px 0 32px;
   }
-  .navbar nav .navContainerForSmallScreen {
-    display: none;
-  }
-
+  
   .navbar nav .navContainer{
     display: flex;
     width: min-content;
+  }
+
+  .navbar nav .navContainerForSmallScreen {
+    display: none;
   }
 
   .navbar nav .navContainerForSm{
@@ -123,7 +128,7 @@
   }
 }
 
-/**  screen  lg  **/
+/**  lg screen  **/
 @media (min-width: 1024px){
   .navbar nav{
     padding: 0 64px 0 64px;
@@ -134,14 +139,14 @@
   }
 }
 
-/**  screen  xl  **/
+/**  xl screen  **/
 @media (min-width: 1280px){
   .navbar nav{
     padding: 0 128px 0 128px;
   }
 }
 
-/**  screen  2xl  **/
+/**  2xl screen  **/
 @media (min-width: 1536px){
   .navbar nav{
     padding: 0 256px 0 256px;
