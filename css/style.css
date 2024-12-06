@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /***=== NAVBAR ===***/
@@ -13,7 +13,6 @@
   justify-content: center;
   align-items: center;
   height: 5rem;
-  background-color: rgba(127, 255, 212, 0.669);
 }
 
 .navbar nav{
@@ -91,6 +90,79 @@
 .navbar nav .navContainerForSmallScreen ul  li a:hover{
   text-decoration: none;
   transform: scale(1.250) translateY(-5px);
+}
+
+.navbar nav .navH h2{
+  font-size: 26px;
+  font-weight: 900;
+  color: #505F98;
+}
+
+.navbar nav .navbtn button{
+  background-color: #111b47;
+  color: white;
+  border: none;
+  width: 160px;
+  height: 18px;
+  font-size: 16px;
+  font-weight: 500;
+  /* line-height: 18px; */
+  padding: 16px;
+}
+
+/**============ HERO SECTION =========**/
+.heroSection{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroSection .textContainer{
+  width: 50%;
+}
+
+.heroSection .textContainer h1{
+  color: #091133;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 66px;
+  letter-spacing: 1px;
+}
+
+.heroSection .textContainer p{
+  color: #505F98;
+  font-size: 18px;
+  font: 400;
+  line-height: 30px;
+  padding-top: 1rem;
+}
+
+.heroSection .textContainer .heroSectionBtn{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-top: 4rem;
+}
+
+.heroSection .textContainer .heroSectionBtn button{
+  width: 189.13px;
+  height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  border: 2px solid #111b47;
+}
+
+.heroSection .img {
+  display: flex;
+}
+
+.heroSection .img img{
+  width: 45rem;
+  height: 40rem;
 }
 
 
