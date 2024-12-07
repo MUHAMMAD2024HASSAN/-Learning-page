@@ -172,7 +172,17 @@
   height: 40rem;
 }
 
+/**========== FIRST SECTION ========**/
+.fstSection{
+  width: 100%;
+  height: auto;
+}
 
+.fstSection .fstSectionContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
 
 
 
