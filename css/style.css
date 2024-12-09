@@ -113,6 +113,23 @@
   cursor: pointer;
 }
 
+/**==== All HEADING & PARAGRAPH ===**/
+h1{
+  color: #091133;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 66px;
+  letter-spacing: 1px;
+}
+
+p{
+  color: #505F98;
+  font-size: 18px;
+  font: 400;
+  line-height: 30px;
+  padding-top: 1rem;
+}
+
 /**============ HERO SECTION =========**/
 .heroSection{
   width: 100%;
@@ -126,21 +143,21 @@
   width: 50%;
 }
 
-.heroSection .textContainer h1{
+/* .heroSection .textContainer h1{
   color: #091133;
   font-size: 50px;
   font-weight: 500;
   line-height: 66px;
   letter-spacing: 1px;
-}
+} */
 
-.heroSection .textContainer p{
+/* .heroSection .textContainer p{
   color: #505F98;
   font-size: 18px;
   font: 400;
   line-height: 30px;
   padding-top: 1rem;
-}
+} */
 
 .heroSection .textContainer .heroSectionBtn{
   display: flex;
@@ -175,7 +192,7 @@
 /**========== FIRST SECTION ========**/
 .fstSection{
   width: 100%;
-  height: auto;
+  height: 30rem;
 }
 
 .fstSection .fstSectionContainer{
@@ -184,6 +201,46 @@
   align-items: center;
 } 
 
+
+/**========== SECOND SECTION ========**/
+.sndSection{
+  width: 100%;
+  height: 30rem;
+}
+
+.sndSection .sndSectionContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/**========== THIRD SECTION ========**/
+.trdSection{
+  width: 100%;
+  height: 30rem;
+}
+
+.trdSection .trdSectionContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/**========== FOURTH SECTION ========**/
+.fthSection{
+  width: 100%;
+  height: 30rem;
+}
+
+.fthSection .fthSectionContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
