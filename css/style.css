@@ -242,6 +242,20 @@ p{
   align-items: center;
 }
 
+/**========== FIFTH SECTION ========**/
+.fithSection{
+  width: 100%;
+  height: 30rem;
+  background-color: #f3f5ff;
+}
+
+.fithSection .fithSectionContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
 
 /**========== FOOTER SECTION ========**/
 .footerSection{
@@ -311,6 +325,40 @@ p{
   transition: 0.5s;
 }
 
+.footerSection footer .container-2 .iconContainer{
+  display: flex;
+  gap: 20px;
+  margin: 1rem 0px;
+}
+
+.footerSection footer .container-2 .iconContainer a{
+ border: 2px solid red;
+ border-radius: 100%;
+ width: 25px;
+ height: 25px;
+ padding: 6px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ transition: 0.5s;
+}
+
+.footerSection footer .container-2 .iconContainer a:hover{
+ background-color: red;
+ box-shadow: 0 0 25px red;
+ transform: scale(1.250) translateY(-5px);
+}
+
+.footerSection footer .container-2 .iconContainer a svg{
+  fill: red;
+  height: 20px;
+  width: 20px;
+  transition: 0.5s;
+ }
+
+ .footerSection footer .container-2 .iconContainer a:hover svg{
+  fill: black;
+ }
 
 
 
