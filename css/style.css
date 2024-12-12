@@ -113,6 +113,13 @@
   font-weight: 500;
   letter-spacing: 1px;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+.navbar nav .navbtn button:hover{
+  color: #091133;
+  background: #505e984f;
+  border: 1px solid #091133;
 }
 
 /**==== All HEADING & PARAGRAPH ===**/
@@ -324,8 +331,14 @@ p{
   font-weight: 500;
   letter-spacing: 1px;
   cursor: pointer;
+  transition: 0.5s;
 }
 
+.footerSection footer .container-1 button:hover{
+  color: #091133;
+  background-color: #505e984f;
+  border: 1px solid #091133;
+}
 
 .footerSection footer .container-2{
   display: flex;
