@@ -152,7 +152,7 @@ p{
 
 .heroSection .heroSectionContainer{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -218,13 +218,13 @@ p{
 
 .fstSection .fstSectionContainer{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 130px;
 } 
 
 .fstSection .fstSectionContainer .fstSectionImg img{
-  transition: transform 1s ease, filter 1s ease;
+  transition: transform 0.5s ease, filter 1s ease;
 } 
 
 .fstSection .fstSectionContainer .fstSectionImg :hover{
@@ -241,13 +241,13 @@ p{
 
 .sndSection .sndSectionContainer{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 100px;
 }
 
 .sndSection .sndSectionContainer .sndSectionImg img{
-  transition: transform 1s ease, filter 1s ease;
+  transition: transform 0.5s ease, filter 1s ease;
 }
 
 .sndSection .sndSectionContainer .sndSectionImg :hover{
@@ -264,13 +264,13 @@ p{
 
 .trdSection .trdSectionContainer{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 40px;
 }
 
 .trdSection .trdSectionContainer .trdSectionImg img{
-  transition: transform 1s ease, filter 1s ease;
+  transition: transform 0.5s ease, filter 1s ease;
 }
 
 .trdSection .trdSectionContainer .trdSectionImg :hover{
@@ -287,13 +287,13 @@ p{
 
 .fthSection .fthSectionContainer{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 130px;
 }
 
 .fthSection .fthSectionContainer .fthSectionImg img{
-  transition: transform 1s ease, filter 1s ease;
+  transition: transform 0.5s ease, filter 1s ease;
 }
 
 .fthSection .fthSectionContainer .fthSectionImg :hover{
