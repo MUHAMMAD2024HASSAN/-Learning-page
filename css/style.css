@@ -223,6 +223,15 @@ p{
   gap: 130px;
 } 
 
+.fstSection .fstSectionContainer .fstSectionImg img{
+  transition: transform 1s ease, filter 1s ease;
+} 
+
+.fstSection .fstSectionContainer .fstSectionImg :hover{
+  transform: scale(1.2);
+} 
+
+
 
 /**========== SECOND SECTION ========**/
 .sndSection{
@@ -235,6 +244,14 @@ p{
   justify-content: center;
   align-items: center;
   gap: 100px;
+}
+
+.sndSection .sndSectionContainer .sndSectionImg img{
+  transition: transform 1s ease, filter 1s ease;
+}
+
+.sndSection .sndSectionContainer .sndSectionImg :hover{
+  transform: scale(1.2);
 }
 
 
@@ -252,6 +269,14 @@ p{
   gap: 40px;
 }
 
+.trdSection .trdSectionContainer .trdSectionImg img{
+  transition: transform 1s ease, filter 1s ease;
+}
+
+.trdSection .trdSectionContainer .trdSectionImg :hover{
+  transform: scale(1.2);
+}
+
 
 
 /**========== FOURTH SECTION ========**/
@@ -265,6 +290,14 @@ p{
   justify-content: center;
   align-items: center;
   gap: 130px;
+}
+
+.fthSection .fthSectionContainer .fthSectionImg img{
+  transition: transform 1s ease, filter 1s ease;
+}
+
+.fthSection .fthSectionContainer .fthSectionImg :hover{
+  transform: scale(1.2);
 }
 
 /**========== FIFTH SECTION ========**/
@@ -297,7 +330,15 @@ p{
   font-weight: 500;
   letter-spacing: 1px;
   cursor: pointer;
+  transition: 0.5s;
 }
+
+.fithSection .fithSectionContainer button:hover{
+  color: #091133;
+  background-color: #505e984f;
+  border: 1px solid #091133;
+}
+
 
 
 /**========== FOOTER SECTION ========**/
