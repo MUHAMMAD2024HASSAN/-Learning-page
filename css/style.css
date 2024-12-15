@@ -156,7 +156,7 @@ p{
   align-items: center;
 }
 
-.heroSection .textContainer{
+.heroSection .heroSectionContainer .textContainer{
   width: 50%;
   position: relative;
   top: 10rem;
@@ -308,8 +308,8 @@ p{
 }
 
 .fithSection .fithSectionContainer{
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
+  /* flex-direction: column; */
   justify-content: center;
   align-self: center;
   gap: 10px;
@@ -456,16 +456,37 @@ p{
 /**========  All media guery  ======**/
 
 /**==  sm screen ==**/
-@media (min-width: 640px){
+@media (min-width: 600px){
   .navbar nav{
     padding: 0 32px 0 32px;
   }
   .navbar nav .navContainer {
     display: none;
   }
-  .heroSection .textContainer{
-    padding: 0 32px 0 32px;
+
+  .heroSection{
+    padding: 0;
+    background-image: none;
+    background-color: #505e9820;
+    height: 92rem;
   }
+  .heroSection .heroSectionContainer{
+    flex-direction: column;
+  }
+
+  .heroSection .img img{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heroSection .heroSectionContainer .textContainer{
+   text-align: center;
+   width: 90%;
+  }
+
   .fstSection .fstSectionContainer{
     padding: 0 32px 0 32px;
   }
@@ -484,6 +505,7 @@ p{
   .footerSection footer{
     padding: 0 32px 0 32px;
   }
+
 }
 
 
@@ -501,6 +523,11 @@ p{
   }
   .navbar nav .navContainerForSm{
     display: none;
+  }
+
+  .heroSection .heroSectionContainer{
+    display: row;
+
   }
   .heroSection .textContainer{
     padding: 0 32px 0 32px;
