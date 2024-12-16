@@ -450,7 +450,7 @@ p{
 /**========  All media guery  ======**/
 
 /**==  sm screen ==**/
-@media (min-width: 600px){
+@media (max-width: 480px) {
   .navbar nav{
     padding: 0 32px 0 32px;
   }
@@ -523,7 +523,7 @@ p{
 
 
 /**==  md screen  ==**/
-@media (min-width: 768px){
+@media (max-width: 768px) {
   .navbar nav{
     padding: 0 32px 0 32px;
   }
@@ -566,7 +566,7 @@ p{
 }
 
 /**==  lg screen  ==**/
-@media (min-width: 1024px){
+@media (max-width: 1024px) {
   .navbar nav{
     padding: 0 64px 0 64px;
   }
@@ -626,7 +626,7 @@ p{
 }
 
 /**==  2xl screen  ==**/
-@media (min-width: 1536px){
+@media (min-width: 1536px) {
   .navbar nav{
     padding: 0 256px 0 256px;
     }
